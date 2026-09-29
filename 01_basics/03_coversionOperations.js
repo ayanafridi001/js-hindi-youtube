@@ -21,5 +21,33 @@ let ValueInNumber4 = Number(score4)
 console.log(ValueInNumber4)
 
 
-//boolean
+//Also the above for boolean &
 //String
+
+
+/*  ********************Operations***************************  */
+
+let value = 3
+let negValue = -value
+
+console.log(negValue)
+
+// console.log(2+3)
+// console.log(2-3)
+// console.log(2*3)
+// console.log(2**3)
+// console.log(2/3)
+// console.log(2%3)
+
+console.log(1+"2")
+console.log("1"+2)
+console.log("1" + 2 + 2)
+console.log(1 + 2 + "2")
+
+console.log(+true)
+// console.log(true+) //Will give error
+console.log(+"")
+
+let gameCounter = 100
+gameCounter++
+console.log(gameCounter)
