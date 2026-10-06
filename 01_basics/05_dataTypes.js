@@ -25,3 +25,27 @@ let myFunc = function()
                     }
 
 console.log(myFunc())
+
+// ******* Stack (Primitive) & Heap (Non-Primitive) ********
+
+let myYoutubename = "helloGuys"
+
+let anotherName = myYoutubename
+anotherName = "DidYouSeetheChange"
+
+console.log(myYoutubename)
+console.log(anotherName)
+
+// Now understanding heap
+
+let userOne = { 
+                email:"hellogmail.com",
+                cnic: 12345
+                }
+
+let userTwo = userOne
+
+userTwo.email = "changed@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
