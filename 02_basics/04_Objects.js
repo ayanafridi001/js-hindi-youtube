@@ -58,3 +58,22 @@ console.log(Object.entries(tinderUSer))
 
 console.log(tinderUSer.hasOwnProperty("isLoggedIn"))
 console.log(tinderUSer.hasOwnProperty("isLogged"))
+
+
+
+/////////////////////////// object de-structuring
+
+const course = {
+                 coursename : 'Js in hindi',
+                 price : 999,
+                 courseInstructor : 'Hitesh'
+ }
+
+// instead of using this again nd again //    console.log(course.instructor) 
+
+/* alternate 
+   to it:           const{courseInstructor} = course
+                    console.log(courseInstructor) 
+*/
+const{courseInstructor:instructor} = course
+console.log(instructor)
